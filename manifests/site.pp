@@ -6,4 +6,7 @@ node devbox {
 
     # use 64 bit software?
     $64bit = true
+
+    # main stage
+    include xubuntu-default-remove
 }

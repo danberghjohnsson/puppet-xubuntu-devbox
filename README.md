@@ -12,10 +12,16 @@ box.
 ```bash
 sudo apt-get update
 sudo apt-get install git puppet -y
-git clone http://github.com/TODO
+git clone https://github.com/kpb/puppet-xubuntu-devbox.git
+cd puppet-xubuntu-devbox
 ...
 ```
-`sudo puppet apply site.pp`
+- Edit the manifest/site.pp changing personal info and making sure the 'node'
+  name matches the hostname of the box.
+  
+- Copy the modules to a location on Puppet's `modulepath` (`sudo puppet --configprint modulepath`)
+
+`sudo puppet apply manifests/site.pp`
 
 # Features
 
