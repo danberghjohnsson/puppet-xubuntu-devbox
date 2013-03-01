@@ -1,3 +1,5 @@
+# TODO base-config stage
+
 node devbox {
     # user info
     $email = 'kenneth@kennethbowen.com'
