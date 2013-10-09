@@ -1,7 +1,11 @@
 # puppet-xubuntu-devbox
 
 Collection of Puppet scripts to automate the set up of an Xubuntu development
-box.
+box. May work on other distros; YMMV.
+
+# Status
+
+Work in progress. Incomplete.
 
 # Use
 - Install Xubuntu 12.10 - virtual machine or bare metal.
@@ -25,7 +29,7 @@ cd puppet-xubuntu-devbox
 
 # Features
 
-Sets up the box as I like it. YMMV.
+Sets up the box as I like it.
 
 - Removes packages I don't use.
 - Installs and configures tools/applications I find useful, including sundry
